@@ -1,0 +1,29 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box; /* Considerar a borada no tamanho total*/
+}
+
+body {
+    background-color: #f6f8fc;
+}
+
+.content {
+    height: 100vh;
+    width: 100vw;
+    padding: 1rem; /*medida importante*/
+    background-color: #fff;
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
+
+.content h1 {
+    margin: 0;
+}
+
